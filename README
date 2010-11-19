@@ -1,0 +1,3 @@
+collection of random little useful (at least to me, once upon a time) scripts
+
+url2bitly2qr.rb - generate qr codes from bit.ly links generated from a list of urls
