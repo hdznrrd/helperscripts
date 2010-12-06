@@ -9,9 +9,8 @@
 $dump = <STDIN>;
 while($_ = <STDIN>)
 {
+    chomp();
     @dat = split /\,/;
-    $dat[2] =~ s/\//\-/g;
-    $dat[3] =~ s/\//\-/g;
     
     $bydate{$dat[2]} += 1;
     $bydate{$dat[3]} -= 1 if($dat[3] != 0); 

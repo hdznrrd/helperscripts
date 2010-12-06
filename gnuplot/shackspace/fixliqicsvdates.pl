@@ -6,6 +6,7 @@
 
 while($_ = <STDIN>)
 {
+    chomp();
    @dat = split /\,/;
    @date = split /\//, $dat[2];
    $date[0] += 4;
