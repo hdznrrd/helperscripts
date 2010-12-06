@@ -16,7 +16,10 @@ while($_ = <STDIN>)
     $bydate{$dat[3]} -= 1 if($dat[3] != 0); 
 }
 
+
+$members = 0;
 foreach(sort keys %bydate)
 {
-    print "$_ $bydate{$_}\n";
+    $members += $bydate{$_};
+    print "$_ $members\n";
 }
