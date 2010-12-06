@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 #
-# generate cummulative member count based on list of members and join date
+# generate delta member count based on list of members and join date
 #
 
 
