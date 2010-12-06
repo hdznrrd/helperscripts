@@ -28,3 +28,9 @@ plot "bookings.dat" using 1:2 with steps
 set title "drinks and food earnings"
 set output "dringsandfoodcummulative.png"
 plot "bookingscummulative.dat" using 1:2 with steps
+
+
+set title "total earnings"
+set output "merged.png"
+plot "merged.dat" using 1:2 with steps
+
