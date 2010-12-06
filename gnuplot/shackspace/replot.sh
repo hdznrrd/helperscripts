@@ -1,2 +1,2 @@
 #!/bin/sh
-gnuplot members.plot
+gnuplot plot.gplt
