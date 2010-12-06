@@ -18,3 +18,13 @@ set output "membersincome.png"
 #set multiplot
 plot "memberscummulative.dat" using 1:3 with steps
 #set nomultiplot
+
+
+set title "drinks and food bookings delta"
+set output "dringsandfood.png"
+plot "bookings.dat" using 1:2 with steps
+
+
+set title "drinks and food earnings"
+set output "dringsandfoodcummulative.png"
+plot "bookingscummulative.dat" using 1:2 with steps
